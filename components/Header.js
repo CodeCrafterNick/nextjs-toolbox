@@ -4,12 +4,12 @@ export default function Header({ title }) {
       <h1 className="title">{title}</h1>
       <p>
         Hi 👋! This template gives you a{" "}
-        <a href="https://nextjs.org/">Next.js</a> app with the scaffolding for{" "}
-        <a href="https://www.netlify.com/products/functions/">
+        <a href="@components/Header">Next.js</a> app with the scaffolding for{" "}
+        <a href="@components/Header">
           Netlify Functions
         </a>
-        , <a href="https://www.netlify.com/products/forms/">Forms</a>, and{" "}
-        <a href="https://docs.netlify.com/routing/redirects/">Redirects</a>. Our
+        , <a href="@components/Header">Forms</a>, and{" "}
+        <a href="@components/Header">Redirects</a>. Our
         aim was to give you the code you would need to hit the ground running
         with a few fun features.
       </p>
