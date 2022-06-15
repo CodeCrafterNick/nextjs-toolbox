@@ -8,7 +8,7 @@ export default function ContactForm() {
         netlify-honeypot
         name="feedback"
         method="POST"
-        action="/success"
+        action="/pages/success"
       >
         <input type="hidden" name="form-name" value="feedback" />
 
