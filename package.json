@@ -18,13 +18,28 @@
     "export": "next export"
   },
   "dependencies": {
+    "@mapbox/rehype-prism": "^0.8.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "chokidar": "^3.5.3",
+    "classnames": "^2.3.1",
     "cypress": "^10.0.3",
+    "gray-matter": "^4.0.2",
+    "netlify-cms-app": "^2.15.72",
+    "netlify-cms-widget-mdx": "^0.5.0",
     "next": "^12.1.4",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "next-remote-watch": "1.0.0",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.3.2",
-    "netlify-plugin-cypress": "2.2.0"
+    "netlify-plugin-cypress": "2.2.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "<8.0.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "^8.3.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.1.3"
   }
 }
